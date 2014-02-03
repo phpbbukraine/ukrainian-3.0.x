@@ -667,7 +667,7 @@ $lang = array_merge($lang, array(
 	'UNWATCHED_TOPICS'			=> 'Ви більше не підписані на обрані теми.',
 	'UNWATCHED_FORUMS_TOPICS'	=> 'Ви більше не підписані на вибране.',
 	'UPDATE'				=> 'Обновити',
-	'UPLOAD_IN_PROGRESS'	=> 'Здійснюється закачування.',
+	'UPLOAD_IN_PROGRESS'	=> 'Здійснюється завантаження.',
 	'URL_REDIRECT'			=> 'Якщо ваш браузер не підтримує автоматичне перенаправлення, %sнатисніть це посилання для переходу%s.',
 	'USERGROUPS'			=> 'Групи',
 	'USERNAME'				=> 'Ім\'я користувача',
@@ -896,16 +896,16 @@ $lang = array_merge($lang, array(
 	'dateformats'	=> array(
 		'd M Y, H:i'			=> '10 січ 2005, 17:57',
 		'd M Y H:i'				=> '10 січ 2005 17:57',
-		'M j, \'y, H:i'		=> 'Січ 1, \'07, 13:37',
+		'M j, \'y, H:i'			=> 'Січ 1, \'07, 13:37',
 		'D M d, Y g:i a'		=> 'Пн січ 10, 2005 5:57 pm',
-		'F j, Y, g:i a'		=> 'Січень 1, 2007, 1:37 pm',
+		'F j, Y, g:i a'			=> 'Січень 1, 2007, 1:37 pm',
 		'|d M Y|, H:i'			=> 'Сьогодні, 13:37 / 01 Січ 2007, 13:37',
 		'|F j, Y|, g:i a'		=> 'Сьогодні, 1:37 pm / Січень 1, 2007, 1:37 pm'
 	),
 
 	// The default dateformat which will be used on new installs in this language
 	// Translators should change this if a the usual date format is different
-	'default_dateformat'	=>'|d M Y|, H:i', // Сегодня, 13:37 / 01 Янв 2007, 13:37
+	'default_dateformat'	=> '|d M Y|, H:i', // Сьогодні, 13:37 / 01 Січ 2007, 13:37
 
 ));
 
